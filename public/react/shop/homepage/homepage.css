@@ -1,0 +1,172 @@
+#box{
+    margin: auto;
+    width: 1200px;
+}
+#head{
+    width: 100%;
+    height: 63px;
+}
+#head span:nth-child(1){
+    margin-right: 420px;
+    float: left;
+    margin-left: 35px;
+    display: inline-block;
+    width: 167px;
+    height: 48px;
+    background: url("../../images/homepage/vanclsprite_001.png") 0 -60px;
+}
+#head input:nth-child(2){
+    font-size: 12px;
+    border: 1px solid darkgrey;
+    width: 390px;
+    padding-left: 5px;
+    height: 27px;
+    float: left;
+
+}
+#head span:nth-child(3){
+    margin-right: 13px;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background: url("../../images/homepage/vanclsprite_001.png") -100px 0;
+}
+#head span:nth-child(4){
+    display: inline-block;
+    width: 107px;
+    height: 30px;
+    background: url("../../images/homepage/vanclsprite_001.png") -155px 0;
+}
+#list{
+    width: 100%;
+    height: 540px;
+}
+#listL{
+    float: left;
+    width: 260px;
+    height: 100%;
+}
+#listL ul h4{
+    padding-top: 10px;
+    color: silver;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 7px;
+}
+#listL ul span{
+    margin-right: 10px;
+    font-size: 10px;
+    color: #000011;
+}
+#listL h1{
+    font-size: 20px;
+    width: 100%;
+    height: 41px;
+    background-color: #b81c22;
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+    margin-bottom: 17px;
+}
+#listL ul{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #b81c22;
+    width: 230px;
+    margin-bottom: 10px;
+    outline: 1px solid #e0e0e1;
+}
+#listL ul:nth-child(2){
+    height: 260px;
+}
+#listL ul:nth-child(3){
+    height: 40px;
+}
+#listL ul:nth-child(4){
+    height: 50px;
+}
+#listL ul:nth-child(5){
+    height: 40px;
+}
+#listR{
+    height: 100%;
+    width: 940px;
+    float: left;
+}
+#listR ul li{
+    background-color: #efefef;
+    text-align: center;
+    padding-top: 15px;
+    width: 117px;
+    height: 43px;
+    float: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#listR ul li:hover{
+    background-color: #dbdbdb;
+}
+#wrap{
+    clear: both;
+    width: 710px;
+    height: 460px;
+    margin-left: 10px;
+    outline: 1px solid #e0e0e1;
+    float: left;
+    margin-right: 10px;
+}
+#wrapR{
+    width: 210px;
+    height: 460px;
+    float: left;
+
+}
+.frame{
+    width: 210px;
+    height: 230px;
+    outline: 1px solid #e0e0e1;
+}
+.detail{
+    margin-top: 10px;
+    width: 100%;
+    height: 555px;
+}
+.detail h1{
+    font-size: 20px;
+    height: 30px;
+    padding-top: 20px;
+    margin-left: 35px;
+}
+.small{
+    float: left;
+    width:232px;
+    height: 232px;
+    margin-top: 15px;
+    margin-right: 8px;
+}
+#footmain{
+    margin-bottom: 100px;
+    overflow: hidden;
+    margin-top: 10px;
+    width: 100%;
+    height: 195px;
+    outline: 1px solid #e0e0e1;
+}
+.footul{
+    margin-top: 20px;
+    float: left;
+    font-size: 12px;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-right: 1px solid #e0e0e1;
+    width: 70px;
+    height: 110px;
+    overflow: hidden;
+}
+.footul h3{
+    margin-bottom: 20px;
+}
+.footul ul li{
+    margin-bottom: 10px;
+}

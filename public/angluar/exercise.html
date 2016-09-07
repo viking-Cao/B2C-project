@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<hello-world></hello-world>
+<script src="./shop/modules/angular-1.2.19/angular.min.js"></script>
+<script>
+    var mainApp = angular.module("mainApp", [], function() {
+        console.log("start...");
+    });
+    mainApp.directive("helloWorld", function() {
+        return {
+            restrict: "E", //配置该指令在页面中应该如何使用
+            template: "<div>hello world</div>"
+        }
+    });
+</script>
+</body>
+</html>

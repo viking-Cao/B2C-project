@@ -1,0 +1,118 @@
+#reg{
+    margin: auto;
+    width: 1200px;
+    height: 600px;
+    margin-bottom: 90px;
+}
+#bgimg{
+    width: 385px;
+    height: 85px;
+    background: url("../../images/reg/spritesbg.png") 0 -275px;
+}
+#regmain{
+    overflow: hidden;
+    width: 100%;
+    height: 530px;
+    outline: 2px solid #cecece;
+}
+#regmain p{
+    padding-top: 7px;
+    padding-left: 30px;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(#eeeeee,#fefefe);
+    border-bottom:2px solid #cecece;
+}
+#regmainL{
+    margin-left: 30px;
+    margin-top: 45px;
+    width: 660px;
+    float: left;
+    overflow: hidden;
+}
+#regmainL .tag{
+    width: 100%;
+    border-bottom: 1px dashed #cecece;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.tagbg{
+    margin-right: 15px;
+    width: 135px;
+    height: 44px;
+    display: inline-block;
+}
+.tag .tagbg:nth-child(2){
+    background: url("../../images/reg/tag_bg.gif") 0 -45px;
+}
+.tag .tagbg:nth-child(3){
+    background: url("../../images/reg/tag_bg.gif") -144px -45px;
+}
+.tag h1{
+    font-weight: 300;
+    float: left;
+    margin-right: 40px;
+}
+.tag ul{
+    width: 460px;
+    float: left;
+    margin-bottom: 10px;
+}
+.tag ul li{
+    margin-bottom: 40px;
+}
+.tag h1 span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: #ac0428;
+    border-radius: 20px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin-right: 15px;
+}
+.tag button{
+    clear: both;
+    margin-left: 200px;
+    width: 180px;
+    height: 30px;
+    color: white;
+    background: linear-gradient(#ac0428,#6f0217);
+}
+.tag ul li {
+    clear: both;
+}
+.tag ul li input{
+    clear: both;
+    width: 200px;
+    height: 20px;
+}
+#regmainR{
+    float: right;
+    width: 240px;
+    height: 563px;
+    border-left: 2px solid #cecece;
+    background-color: #f9f9f9;
+}
+#regmainR p{
+    outline: none;
+    font-size: 12px;
+    border: none;
+    background: none;
+    margin-top: 120px;
+}
+#regmainR p button{
+    width: 60px;
+    height: 20px;
+    background: none;
+    border: 1px solid #cecece;
+}
+.tag ul span{
+    font-weight: 600;
+    top: 280px;
+    left: 650px;
+    position: absolute;
+    outline: none;
+    color: red;
+}

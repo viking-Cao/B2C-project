@@ -1,0 +1,142 @@
+#ooo{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#mycar{
+    outline: 1px solid #d1d1d1;
+    width: 100%;
+    /*height: 300px;*/
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+#cardetail{
+    width: 100%;
+    height: 150px;
+}
+#mycar table thead tr th{
+    background: linear-gradient(#f8f8f8,#d5d5d5);
+}
+#mycar table thead th:nth-child(1){
+    height: 50px;
+    padding-left: 55px;
+    width: 120px;
+}
+#mycar table thead th:nth-child(2){
+    width: 286px;
+}
+#mycar table thead th:nth-child(3){
+    width: 120px;
+}
+#mycar table thead th:nth-child(4){
+    width: 130px;
+}
+#mycar table thead th:nth-child(5){
+    width: 130px;
+}
+#mycar table thead th:nth-child(6){
+     width: 160px;
+ }
+#mycar table thead th:nth-child(7){
+     width: 100px;
+ }
+#mycar table thead th:nth-child(8){
+     width: 100px;
+ }
+#money{
+    overflow: hidden;
+    width: 100%;
+    height: 240px;
+    outline: 1px solid #ebe5bb;
+    background-color: #fffef5;
+}
+#money p{
+    float: left;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#money ul {
+    margin-left: 30px;
+    clear: both;
+}
+#money ul li{
+    margin-top: 20px;
+}
+#money button{
+    border: none;
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #c00b0b;
+    color: white;
+    float: right;
+}
+#mycar input{
+    float: left;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+#mycar img{
+    margin-top: 20px;
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+#cardetail span{
+    font-size: 18px;
+    margin-top: 40px;
+    float: left;
+    display: inline-block;
+
+}
+#cardetail span:nth-child(3){
+    width: 286px;
+}
+#cardetail span:nth-child(4){
+    width: 120px;
+}
+#cardetail span:nth-child(5){
+    width: 130px;
+}
+#cardetail div:nth-child(6){
+    margin: 0;
+    width: 130px;
+}
+#cardetail span:nth-child(7){
+    width: 160px;
+}
+#cardetail span:nth-child(8){
+    width: 100px;
+}
+#mycar button{
+    float: left;
+    margin-top: 40px;
+}
+#number{
+    margin-right: 85px;
+    float: left;
+    display: inline-block;
+}
+#number button{
+    width: 20px;
+    height: 20px;
+}
+#number span{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#money .count{
+    font-weight: 600;
+    color: red;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 30px;
+}

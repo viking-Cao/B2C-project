@@ -1,0 +1,41 @@
+<div id="homepage">
+    <header>
+        <p>凡客</p>
+        <img src="../images/1_09.jpg" alt="" ng-click="login()"/>
+        <img src="../images/1_07.jpg" alt="" ng-click="shopcar()"/>
+    </header>
+        <div>
+            <div id="wrap">
+                <img src="{{imgSrc}}">
+                <ul class="btns">
+                    <li ng-mouseenter="stop($index)" ng-mouseleave="start()" ng-repeat="item in imgsSrc" class="{{ item.selected ? 'selectedBtn' : '' }}"></li>
+                </ul>
+            </div>
+            <img src="../images/4_04.jpg" alt=""/>
+            <img src="../images/4_06.jpg" alt=""/>
+            <div class="sale">10:00抢购结束</div>
+            <img ng-repeat="item in pagemain" ng-src={{item.img232}} alt="" ng-click="detail(item._id)"/>
+            <!--<tr ng-repeat="item in page.data">-->
+            <button>查看更多</button>
+            <button>返回顶部</button>
+        </div>
+    <footer>
+        <button ng-click="login()">登 录</button>
+        <button ng-click="reg()">注 册</button>
+        <div>
+            <div>
+                <img src="../images/5_21.jpg" alt=""/>
+            </div>
+            <div>
+                <img src="../images/5_23.jpg" alt=""/>
+            </div>
+            <div>
+                <img src="../images/5_25.jpg" alt=""/>
+            </div>
+            <div>
+                <img src="../images/5_27.jpg" alt=""/>
+            </div>
+        </div>
+        <p>京ICP证100557号</p>
+    </footer>
+</div>

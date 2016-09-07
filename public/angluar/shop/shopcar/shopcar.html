@@ -1,0 +1,22 @@
+<div id="shopcar">
+    <header>
+        <img src="../images/1_03.jpg" alt="" ng-click="homepage()"/>
+        <img src="../images/1_05.jpg" alt=""/>
+        <p>购物车</p>
+    </header>
+
+    <div ng-repeat="item in shopcarM" id="shopcarM">
+        <input type="checkbox"/>
+        <img ng-src={{item.img}} alt="" id="shopcarimg"/>
+        <ul>
+            <li>{{item.name}} <span>{{item.color}}</span></li>
+            <li>颜色：{{item.color}} &nbsp;&nbsp;尺码：s</li>
+            <li>{{item.price}} <button class="add" ng-click="add()">+</button><span class="number">{{count}}</span><button class="sub" ng-click="sub()">-</button></li>
+            <li><button id="del" ng-click="del(item._id)">删除</button></li>
+        </ul>
+</div>
+
+    <footer>
+        <button ng-click="order()">结&nbsp;算</button>
+    </footer>
+</div>

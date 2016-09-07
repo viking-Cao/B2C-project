@@ -1,0 +1,648 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 0.16rem;
+}
+h2{
+    font-size: 0.13rem
+}
+
+a,p{
+    font-size: 0.1rem;
+}
+#box{
+    width: 6.4rem;
+}
+#login{
+    width: 100%;
+    height: 7.48rem;
+}
+#login header{
+    overflow: hidden;
+    width: 100%;
+    height: 0.9rem;
+    background-color: #b81b22;
+}
+#login header img{
+    width: 0.48rem;
+    height: 0.48rem;
+    display: inline-block;
+    float: left;
+    margin-left: 0.25rem;
+    margin-top: 0.15rem;
+}
+#login header p{
+    margin-top: 0.27rem;
+    color: white;
+    font-size: 0.35rem;
+    margin-left: 3rem;
+}
+#login div{
+    overflow: hidden;
+}
+#login div ul li{
+    /*margin-bottom: 0.5rem;*/
+    text-align: center;
+    font-size: 0.35rem;
+    float: left;
+    list-style: none;
+    color: #666666;
+    width: 2.46rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin-left: 0.45rem;
+}
+#login div ul li:hover{
+    border-bottom: 0.01rem solid #b81b22;
+}
+#login div input{
+    font-size: 0.2rem;
+    padding-left: 0.1rem;
+    width: 5.5rem;
+    height: 0.7rem;
+    border: none;
+    background-color: #f5f5f5;
+    display: block;
+    color: #d3d3d3;
+    margin-left: 0.4rem;
+    margin-bottom: 0.6rem;
+}
+#login div button{
+    font-size: 0.32rem;
+    padding-left: 0.1rem;
+    width: 5.5rem;
+    height: 0.7rem;
+    border: none;
+    background-color: #b81b22;
+    display: block;
+    color: white;
+    margin-left: 0.4rem;
+}
+#login div a{
+    font-size: 0.18rem;
+    color: #666666;
+    text-decoration: none;
+    float: left;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+#login div a:nth-child(5){
+    margin-left: 0.4rem;
+}
+#login div a:nth-child(6){
+    float: right;
+    margin-right: 0.5rem;
+}
+#login div  p{
+    margin-left: 0.4rem;
+    color: #666666;
+    clear: both;
+    font-size: 0.18rem;
+}
+#login div img:last-child{
+    width: 100%;
+    height: 0.4rem;
+    margin-top: 0.2rem;
+    float: left;
+}
+
+#reg{
+    width: 100%;
+    height: 7.48rem;
+}
+#reg header{
+    overflow: hidden;
+    width: 100%;
+    height: 0.9rem;
+    background-color: #b81b22;
+}
+#reg header img{
+    width: 0.48rem;
+    height: 0.48rem;
+    display: inline-block;
+    float: left;
+    margin-left: 0.25rem;
+    margin-top: 0.15rem;
+}
+#reg header p{
+    margin-top: 0.27rem;
+    color: white;
+    font-size: 0.35rem;
+    margin-left: 3rem;
+}
+#reg div input{
+    font-size: 0.2rem;
+    padding-left: 0.1rem;
+    width: 5.5rem;
+    height: 0.7rem;
+    border: none;
+    background-color: #f5f5f5;
+    display: block;
+    color: #d3d3d3;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem;
+}
+#reg div input:nth-child(1){
+    margin-bottom: 0.2rem;
+    float: left;
+    margin-top: 0.5rem;
+    width: 5.5rem;
+}
+#reg div p{
+    margin-top: 0.6rem;
+    text-align: center;
+    color: #989898;
+    clear: both;
+    font-size: 0.18rem;
+    margin-bottom: 0.4rem;
+}
+#reg div p a{
+    text-decoration: none;
+    font-size: 0.18rem;
+    color: #000011;
+}
+#reg div button{
+    font-size: 0.32rem;
+    padding-left: 0.1rem;
+    width: 5.5rem;
+    height: 0.7rem;
+    border: none;
+    background-color: #b81b22;
+    display: block;
+    color: white;
+    margin-left: 0.4rem;
+}
+
+#detail{
+    width: 100%;
+}
+#detail header{
+    overflow: hidden;
+    width: 100%;
+    height: 0.9rem;
+    background-color: #b81b22;
+}
+#detail header img{
+    width: 0.48rem;
+    height: 0.48rem;
+    display: inline-block;
+    float: left;
+    margin-left: 0.25rem;
+    margin-top: 0.15rem;
+}
+#detail header p {
+    margin-right: 0.8rem;
+    margin-left: 1rem;
+    margin-top: 0.19rem;
+    float: left;
+    display: inline-block;
+    color: white;
+    font-size: 0.35rem;
+}
+#detail div img{
+    display: block;
+    width: 6.4rem;
+}
+#detail div p{
+    color: #c7161e;
+    font-size: 0.27rem;
+    font-weight: 600;
+    margin-bottom: 0.15rem;
+    margin-left: 0.4rem;
+}
+#detail div p:nth-child(2){
+     color: black;
+ }
+#detail div p:nth-child(2) span{
+    color: #c7161e;
+    font-size: 0.3rem;
+}
+#detail div button{
+    font-size: 0.32rem;
+    padding-left: 0.1rem;
+    width: 5.5rem;
+    height: 0.7rem;
+    border: none;
+    background-color: #b81b22;
+    display: block;
+    color: white;
+    margin-left: 0.4rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.3rem;
+}
+
+#shopcar{
+    width: 100%;
+}
+#shopcar header{
+    overflow: hidden;
+    width: 100%;
+    height: 0.9rem;
+    background-color: #b81b22;
+}
+#shopcar header img{
+    width: 0.48rem;
+    height: 0.48rem;
+    display: inline-block;
+    float: left;
+    margin-left: 0.25rem;
+    margin-top: 0.15rem;
+}
+#shopcar header p{
+    margin-top: 0.27rem;
+    color: white;
+    font-size: 0.35rem;
+    margin-left: 3rem;
+}
+#shopcar div{
+    width: 100%;
+    height: 1.9rem;
+    margin-bottom: 0.1rem;
+}
+#shopcar div h3 {
+    margin-top: 0.1rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.2rem;
+    margin-left: 0.4rem;
+}
+#shopcar div input{
+    width: 0.2rem;
+    height: 0.2rem;
+    margin-top: 0.7rem;
+    margin-right: 0.2rem;
+    display: inline-block;
+    margin-left: 0.4rem;
+}
+#shopcar div img{
+    float: left;
+    display: block;
+}
+#shopcar div ul{
+    margin-left: 0.2rem;
+    float: left;
+}
+#shopcar div ul li{
+    list-style: none;
+    margin-bottom: 0.1rem;
+    font-size: 0.2rem;
+}
+#shopcar div ul li:last-child{
+    color: #b81b22;
+}
+#shopcar div ul li button{
+    margin-top: 0.1rem;
+    font-size: 0.3rem;
+    border: none;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: #f4f4f4;
+}
+#shopcar #number{
+    text-align: center;
+    margin: auto 0.1rem;
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    border: 0.01rem solid #c9c9c9;
+    border-radius: 0.05rem;
+}
+#shopcar div input{
+    float: left;
+
+}
+#shopcar footer{
+    overflow: hidden;
+    width: 100%;
+    height: 1.1rem;
+    background-color: #f5f5f5;
+}
+#shopcar footer p{
+    float: left;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem;
+    font-size: 0.25rem;
+}
+#shopcar footer p span{
+    color: #b81b22;
+}
+#shopcar footer button{
+    float: right;
+    font-size: 0.28rem;
+    padding-left: 0.1rem;
+    width: 1.45rem;
+    height: 0.45rem;
+    border: none;
+    background-color: #b81b22;
+    display: block;
+    color: white;
+    margin-right: 0.4rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+#homepage{
+    width: 100%;
+    height: 7rem;
+}
+#homepage{
+    width: 100%;
+}
+#homepage header{
+    overflow: hidden;
+    width: 100%;
+    height: 0.9rem;
+    background-color: #b81b22;
+}
+#homepage header img{
+    float: right;
+    width: 0.48rem;
+    height: 0.48rem;
+    display: inline-block;
+    margin-right: 0.25rem;
+    margin-top: 0.15rem;
+}
+#homepage header p {
+    margin-left: 0.5rem;
+    margin-top: 0.19rem;
+    float: left;
+    display: inline-block;
+    color: white;
+    font-size: 0.35rem;
+}
+#homepage div{
+    width: 100%;
+    overflow: hidden;
+}
+#homepage div img{
+    width: 3.2rem;
+    float: left;
+}
+#homepage div img:nth-child(15),#homepage div img:nth-child(1),#homepage div img:nth-child(2),#homepage div img:nth-child(3){
+    width: 100%;
+}
+#homepage .sale{
+    padding-top: 0.3rem;
+    font-size: 0.4rem;
+    width: 100%;
+    height: 0.7rem;
+    color: white;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+#homepage div button{
+    font-size: 0.2rem;
+    border: none;
+    float: left;
+    width: 3.2rem;
+    background-color: white;
+    color: #b1b1b1;
+    text-align: center;
+    height: 0.7rem;
+    padding-top: 0.1rem;
+}
+#homepage footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 5.55rem;
+    overflow: hidden;
+}
+#homepage footer button{
+    font-size: 0.2rem;
+    border: none;
+    float: left;
+    width: 1.7rem;
+    margin-top: 0.9rem;
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 0.5rem;
+    padding-top: 0.1rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+#homepage footer button:nth-child(1){
+    margin-left: 1.5rem;
+    margin-right: 0.1rem;
+}
+#homepage footer div{
+    margin: auto;
+    margin-top: 0.4rem;
+
+    width: 4.5rem;
+    height: 1rem;
+    border-top: 0.01rem solid darkgrey;
+}
+#homepage footer div div{
+    overflow: auto;
+    border: none;
+    margin-top: 0.3rem;
+    float: left;
+    margin-left: 0;
+    margin-right: 0.5rem;
+    width: 0.6rem;
+    height: 1.4rem;
+}
+#homepage footer div div:last-child{
+    margin-right: 0;
+}
+#homepage footer div div p{
+    text-align: center;
+    margin-top: 0.2rem;
+    font-size: 0.15rem;
+}
+#homepage footer p:last-child{
+    text-align: center;
+    margin-top: 0.3rem;
+    font-size: 0.15rem;
+}
+
+#order{
+    width: 100%;
+}
+#order header{
+    overflow: hidden;
+    width: 100%;
+    height: 0.9rem;
+    background-color: #b81b22;
+}
+#order header img{
+    width: 0.48rem;
+    height: 0.48rem;
+    display: inline-block;
+    float: left;
+    margin-left: 0.25rem;
+    margin-top: 0.15rem;
+}
+#order header p {
+    margin-right: 0.8rem;
+    margin-left: 1rem;
+    margin-top: 0.19rem;
+    float: left;
+    display: inline-block;
+    color: white;
+    font-size: 0.35rem;
+}
+#order div{
+    width: 100%;
+}
+#order div div{
+    overflow: hidden;
+    margin: auto;
+    margin-top: 0.1rem;
+    width: 5.6rem;
+    background-color: #f5f5f5;
+    font-size: 0.2rem;
+}
+#order div div span{
+    float: left;
+    width: 1.7rem;
+    margin-top: 0.1rem;
+    margin-left: 0.2rem;
+    display: inline-block;
+}
+#order div div select{
+    width: 3rem;
+    margin-right: 0.5rem;
+    margin-top: 0.1rem;
+    display: inline-block;
+    border: none;
+    background-color: #f5f5f5;
+    font-size: 0.2rem;
+}
+#order div h3{
+    padding-bottom: 0.18rem;
+    border-bottom: 0.01rem solid darkgrey;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem;
+    font-size: 0.25rem;
+}
+#order .dingdan{
+    background-color: white;
+    width: 100%;
+}
+
+#order .dingdan .money{
+    overflow: hidden;
+    width: 5.6rem;
+    height: 2.4rem;
+    margin-bottom: 0.2rem;
+}
+#order .dingdan .money ul{
+    margin-left: 0.4rem;
+    margin-top: 0.3rem;
+}
+#order .dingdan .money ul li{
+    list-style: none;
+    margin-bottom: 0.1rem;
+}
+#order .dingdan .money  p{
+    font-size: 0.18rem;
+    margin-left: 0.4rem;
+}
+/*#order .dingdan div:nth-child(3){*/
+    /*overflow: hidden;*/
+    /*width: 5.6rem;*/
+    /*height: 0.8rem;*/
+    /*margin-bottom: 0.2rem;*/
+/*}*/
+/*#order .dingdan div:nth-child(3) button{*/
+    /*margin-top: 0.2rem;*/
+    /*width: 1.1rem;*/
+    /*height: 0.4rem;*/
+    /*text-align: center;*/
+    /*font-size: 0.15rem;*/
+    /*border: 0.01rem solid #f5f5f5;*/
+    /*border-radius: 0.01rem;*/
+    /*color: #838383;*/
+/*}*/
+/*#order .dingdan div:nth-child(3) button:nth-child(1){*/
+    /*margin-left: 1.6rem;*/
+/*}*/
+#ptijiao{
+    font-weight: 600;
+    margin-left: 0.4rem;
+    font-size: 0.2rem;
+    color: #b81b22;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+#tijiao{
+    float: right;
+    font-size: 0.28rem;
+    width: 5.6rem;
+    height: 0.6rem;
+    border: none;
+    background-color: #b81b22;
+    display: block;
+    color: white;
+    margin: auto;
+    margin-right: 0.4rem;
+}
+#wrap {
+    width: 6.40rem;
+    height: 4.28rem;
+    position: relative;
+}
+
+.btns {
+    overflow: hidden;
+    position: absolute;
+    top: 4rem;
+    left: 3rem;
+}
+
+.btns li {
+    background-color: darkgrey;
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 0.15rem;
+    float: left;
+    margin-right: 0.1rem;
+}
+.selectedBtn {
+    background-color: black;
+}
+#regInfo{
+    top: 1.5rem;
+    font-weight: 600;
+    font-size: 0.2rem;
+    position: absolute;
+    color: #b81b22;
+    left: 3.7rem;
+}
+#shopcarimg{
+    width: 1.35rem;
+    height: 1.35rem;
+}
+#shopcarM{
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+}
+#shopcarM #del{
+    width: auto;
+    height: auto;
+    font-size: 0.2rem;
+}
+#shopcarO{
+    background-color: white;
+    width: 5.6rem;
+    height: 2.1rem;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+    border-bottom: 0.01rem solid darkgrey;
+}
+#shopcarO img{
+    display: inline-block;
+    float: left;
+    margin-top: 0.2rem;
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+}
+#shopcarO ul {
+    margin-top: 0.3rem;
+    margin-bottom: 0.1rem;
+    list-style: none;
+    float: left;
+}

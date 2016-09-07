@@ -1,0 +1,14 @@
+<div id="reg">
+    <header>
+        <img src="../images/1_03.jpg" alt="" ng-click="homepage()"/>
+        <p>注册</p>
+    </header>
+    <div>
+        <input type="text" placeholder="请输入您的用户名" ng-model="user.username" ng-blur="isUse(user.username)"/>
+        <span id="regInfo">{{user.regInfo}}</span>
+        <input type="text" placeholder="密码：6-16位密码，数字，特殊符号" ng-model="user.password" ng-blur="checkPassword(user.password)"/>
+        <input type="password" placeholder="请重复你的密码" ng-model="user.password1" ng-blur="passWord(user.password,user.password1)"/>
+        <p>注册账号即表示同意 <a href="">《VANCL凡客服务条款》</a></p>
+        <button ng-click="reg()" id="regbutton">点击注册</button>
+    </div>
+</div>

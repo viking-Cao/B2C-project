@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="project.css"/>
+    <link rel="stylesheet" href="homepage/homepage.css"/>
+    <link rel="stylesheet" href="pagemain/pagemain.css"/>
+    <link rel="stylesheet" href="order/order.css"/>
+    <link rel="stylesheet" href="reg/reg.css"/>
+    <link rel="stylesheet" href="login/login.css"/>
+    <link rel="stylesheet" href="shopcar/shopcar.css"/>
+</head>
+<body>
+        <div id="project"></div>
+    <footer>
+        <p>Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号
+            凡客诚品（北京）科技有限公司</p>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </footer>
+        <script src="../bin/jquery-1.7.2.min.js"></script>
+        <script src="../../dist/project.js"></script>
+        <script type="text/javascript">
+            $("#bottomImg").on("mouseenter", "img", function() {
+                $("#fangdajingL img").attr("src", $(this).attr("src").replace(1,2));
+//			替换图片，由1改为2
+            });
+
+            $("#fangdajingL").on("mouseenter", function() {
+                $(".inner").show();
+                $("#fangdajingR").show();
+                $("#fangdajingR").html("<img src='"+$("#fangdajingR img").attr("src").replace(1, 2)+"' />");
+//		字符串拼接
+
+                $(document).on("mousemove", function(e) {
+//				鼠标移动事件
+                    var x = e.pageX - $(".inner").outerWidth() / 2-130;
+//				内边距+border的宽度
+                    var y = e.pageY - $(".inner").outerHeight() / 2-300;
+                    if(x < 0) {
+                        x = 0;
+                    }
+
+                    if(x > $("#fangdajingL").outerWidth() - $(".inner").outerWidth()) {
+                        x = $("#fangdajingL").outerWidth() - $(".inner").outerWidth();
+                    }
+
+                    if(y < 0) {
+                        y = 0;
+                    }
+
+                    if(y > $("#fangdajingL").outerHeight() - $(".inner").outerHeight()) {
+                        y = $("#fangdajingL").outerHeight() - $(".inner").outerHeight()
+                    }
+
+                    $(".inner").css({
+                        left: x,
+                        top: y
+                    });
+
+                    $("#fangdajingR img").css({
+                        top: y * -800 / 600,
+                        left: x * -800 / 600
+                    })
+                });
+            });
+
+            $("#fangdajingL").on("mouseleave", function() {
+                $(".inner").hide();
+                $("#fangdajingR").hide();
+            });
+
+        </script>
+</body>
+</html>

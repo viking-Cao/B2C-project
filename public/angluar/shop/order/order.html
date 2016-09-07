@@ -1,0 +1,61 @@
+<div id="order">
+    <header>
+        <img src="../images/1_03.jpg" alt="" ng-click="homepage()"/>
+        <img src="../images/1_05.jpg" alt=""/>
+        <p>结 算</p>
+        <img src="../images/1_07.jpg" alt="" ng-click="order()"/>
+        <img src="../images/1_09.jpg" alt="" ng-click="login()"/>
+    </header>
+    <div>
+        <div>
+            <span>收货人：</span><select name="" id="name">
+            <option value="">曹倩云 13659056283</option>
+            <option value="">曹倩云1 13659056283</option>
+            <option value="">曹倩云2 13659056283</option>
+        </select>
+        </div>
+        <div>
+            <span>收货时间：</span><select name="" id="timer">
+            <option value="">星期一及周日以及假日均可送货</option>
+            <option value="">周一至周五送货</option>
+            <option value="">周末及节假日送货</option>
+        </select>
+        </div>
+        <div>
+            <span>支付方式:</span><select name="" id="payfor">
+            <option value="">支付宝支付（在线支付）</option>
+            <option value="">银行卡支付（在线支付）</option>
+            <option value="">货到付款</option>
+        </select>
+        </div>
+
+        <div>
+            <span>是否使用礼品卡：</span><select name="" id="gift">
+            <option value="">是</option>
+            <option value="">否</option>
+        </select>
+        </div>
+        <h3>商品明细</h3>
+        <div class="dingdan">
+            <div ng-repeat="item in shopcarM" id="shopcarO" >
+                <img ng-src={{item.img}} alt="" id="shopcarimg"/>
+                <ul>
+                    <li>{{item.name}} {{item.color}}</li>
+                    <li>颜色：{{item.color}} &nbsp;&nbsp;尺码：s</li>
+                    <li>{{item.price}}</li>
+                </ul>
+            </div>
+            <div class="money">
+                <ul>
+                    <li>商品金额：￥99.00</li>
+                    <li>商品运费：￥10.00</li>
+                    <li>已付运费：￥0</li>
+                    <li>总金额：￥109.00</li>
+                </ul>
+                <p>=99.00(订单总额)+10.00（运费）-0.00（礼品卡）-0.00（虚拟账户）-0.00（积分冲抵）</p>
+            </div>
+            <p id="ptijiao">普通商品自签收之日起七天内，可享受七天无理由退换货。</p>
+            <button id="tijiao" ng-click="submitorder()">提交订单</button>
+        </div>
+    </div>
+</div>

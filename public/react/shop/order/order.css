@@ -1,0 +1,57 @@
+#orderMain{
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    clear: both;
+    width: 100%;
+    height: 245px;
+    outline: 1px solid #e2e2e2;
+}
+#orderMain h1{
+    width: 400px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+#orderMain h1 p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: black;
+}
+#orderMain h1 p a{
+    color: #b81c22;
+}
+#orderMain img {
+    margin-top: 20px;
+    margin-right: 30px;
+    display: block;
+    float: right;
+}
+#orderMain p:nth-child(3){
+    clear: both;
+    text-align: center;
+    font-size: 12px;
+}
+.orderclass{
+    float: right;
+    margin-bottom: 30px;
+}
+.orderclass a{
+    font-weight: 800;
+    color: #b81c22;
+    margin-right: 30px;
+}
+.smallTitle{
+    font-size: 14px;
+    clear: both;
+    margin-bottom: 10px;
+}
+#interrelated{
+    clear: both;
+    width: 100%;
+    height: 260px;
+}
+#interrelated img{
+    margin-right: 7px;
+}
